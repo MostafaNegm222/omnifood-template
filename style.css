@@ -353,8 +353,11 @@ nav ul {
     overflow: hidden;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
     background-color: #fff;
+    transition: 0.4s;
 }
-
+.cards .card:hover {
+    transform: translateY(-15px);
+}
 .card img {
     max-width: 100%;
 }
@@ -463,6 +466,11 @@ nav ul {
 
 .test-images img {
     max-width: 100%;
+    transition: 0.4s;
+}
+
+.test-images img:hover {
+    transform: scale(1.1);
 }
 
 .test-cards .card img {
@@ -770,8 +778,6 @@ footer {
     grid-template-columns: repeat(auto-fit ,minmax(200px,1fr));
     gap: 35px;
     justify-content: space-between;
-}
-.footer-card {
 }
 .footer-card img {
     max-width: 100%;
